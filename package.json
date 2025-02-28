@@ -1,0 +1,21 @@
+{
+  "name": "chatwithpdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node app.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/community": "^0.3.30",
+    "@langchain/core": "^0.3.40",
+    "hnswlib-node": "^3.0.0",
+    "langchain": "^0.3.15",
+    "pdf-parse": "^1.1.1"
+  },
+  "type": "module"
+}
